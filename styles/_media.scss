@@ -206,3 +206,11 @@
     }
   }
 }
+
+@media screen and (max-height: 720px) {
+  .header-content .left-header .image img {
+    content: url("../img/circle-cropped-memoji.png");
+    width: 120px;
+    height: auto;
+  }
+}

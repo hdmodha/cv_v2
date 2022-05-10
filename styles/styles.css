@@ -639,7 +639,7 @@ section {
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
   color: var(--color-white);
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
 }
 
 .portfolios .portfolio-item .hover-items .icons {
@@ -1130,6 +1130,14 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4rem;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .header-content .left-header .image img {
+    content: url("../img/circle-cropped-memoji.png");
+    width: 120px;
+    height: auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */
